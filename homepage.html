@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CoronaNews. Anti-vius site</title>
+    <!-- Integrazione fogli di stile -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Link icone Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Link integrazione Google Font Roboto Slab -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <!-- Logo del sito -->
+      <img src="img/logo.jpg" alt="Logo del sito" class="logo">
+      <!-- Link per apertura menu' (visibile solo su mobile) -->
+      <a href="javascript:void(0);" id="icona" onclick="aperturaMenu()">
+        <i class="fa fa-bars"></i>
+      </a>
+      <!-- Menu link del sito -->
+      <div id="header-right">
+        <a id="menu-link" class="active" href="#home">Home</a>
+        <a id="menu-link" href="#contact">Contatti</a>
+        <a id="menu-link" href="#about">About</a>
+        <a id="menu-link" href="#login">Accedi</a>
+        <a id="menu-link" href="#signup">Registrati</a>
+      </div>
+    </header>
+
+    <main>
+      <!-- Sezione principale del sito contenente le ultime notizie -->
+      <div class="titolo">
+        <h1>ULTIME NOTIZIE</h1>
+      </div>
+
+      <div class="main-container">
+        <section>
+          <!-- Articolo 1 -->
+          <article>
+            <!-- Contenitore per l'immagine -->
+            <div class="immagine">
+              <img src="img/esempio.jpg" alt="Immagine per l'articolo" class="img-articolo">
+            </div>
+            <!-- Contenitore per i meta dati dell'articolo -->
+            <div class="articolo">
+              <div class="titolo-articolo">
+                <strong><a href="#">Titolo dell'articolo 1</a></strong> 
+              </div>
+              <p>
+                <span>Scritto da Autore &nbsp;&nbsp;</span>
+                <span>01/02/20 &nbsp;&nbsp;</span>
+                <span>6 commenti</span>
+              </p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </article>
+
+          <!-- Articolo 2 -->
+          <article>
+            <!-- Contenitore per l'immagine -->
+            <div class="immagine">
+              <img src="img/esempio.jpg" alt="Immagine per l'articolo" class="img-articolo">
+            </div>
+            <!-- Contenitore per i meta dati dell'articolo -->
+            <div class="articolo">
+              <div class="titolo-articolo">
+                <strong><a href="#">Titolo dell'articolo 2</a></strong>
+              </div>
+              <p>
+                <span>Scritto da Autore &nbsp;&nbsp;</span>
+                <span>01/02/20 &nbsp;&nbsp;</span>
+                <span>6 commenti</span>
+              </p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </article>
+
+          <!-- Articolo 3 -->
+          <article>
+            <!-- Contenitore per l'immagine -->
+            <div class="immagine">
+              <img src="img/esempio.jpg" alt="Immagine per l'articolo" class="img-articolo">
+            </div>
+            <!-- Contenitore per i meta dati dell'articolo -->
+            <div class="articolo">
+              <div class="titolo-articolo">
+                <strong><a href="#">Titolo dell'articolo 3</a></strong>
+              </div>
+              <p>
+                <span>Scritto da Autore &nbsp;&nbsp;</span>
+                <span>01/02/20 &nbsp;&nbsp;</span>
+                <span>6 commenti</span>
+              </p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </article>
+        </section>
+
+        <aside>
+          <h2>SIDEBAR</h2>
+        </aside>
+      </div>
+    </main>
+
+    <!-- Integrazione file js -->
+    <script type="text/javascript" src="js/menu.js"></script>
+  </body>
+</html>
